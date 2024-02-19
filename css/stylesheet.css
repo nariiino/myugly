@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Macondo&family=Monoton&family=Rubik+Bubbles&display=swap');
 body{
-   background-image: url(
-    
-   );
+   background-image: url(../img/smoke.gif);
    background background-repeat: mask-repeat: ; 
    color: aqua;
    background-attachment:fixed
@@ -11,20 +9,57 @@ body{
 }
 
 h1{
+    margin: auto;
+    background-size: contain;
+    background-color: rgb(98, 98, 72);
+    color: aquamarine;
     width: 30%;
     font-family: "Rubik Bubbles", system-ui;
     font-weight: 400;
     font-style: normal;
+  
 }
 h2{
+    background-image: url(../img/cigss.jpg);
+    background-size: contain;
+    color: rgb(255, 5, 5);
     font-family: "Macondo", cursive;
     font-weight: 400;
      font-style: normal;
-
+     margin-left: 60%;
+     font-size: 60px;
+     width: fit-content;
+     border: 2px;
+     border-radius: 30%;
+     padding: 5px;
+     
 }
-]
+
 h3{
+    color: rgb(255, 13, 190);
     font-family: "Monoton", sans-serif;
     font-weight: 400;
     font-style: normal;
+    width: 70%;
+    margin: auto;
+    font-size: 40px;
+}
+
+h4{
+    width: fit-content;
+    color: blue;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+     font-style: normal;
+     margin-left: 200px;
+     font-size: 60px;
+     border: 28px;
+     border-color: rgb(96, 120, 0);
+     border-style: outset;
+     border-width: 5%;
+     border-collapse: collapse;
+     border-radius: 30%;
+     padding: 5px;
+    
+
 }
